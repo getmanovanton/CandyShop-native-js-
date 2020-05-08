@@ -1,0 +1,14 @@
+.error-page{
+    padding: 5px;
+    background-color: #ff4461;
+    display: inline-block;
+    border-radius: 10px;
+    color: var(--color-white);
+    font-size: 2rem;
+    text-align: center;
+    width: 50%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,45 @@
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: var(--color-light);
+    align-items: center;
+    padding: 0 40px;
+}
+.header-counter{
+    height: 50px;
+    width: 50px;
+    background-image: url("../../img/shopping-cart.png");
+    background-size: cover;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-logo__text{
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    color: #FFFFFF;
+    font-size: 2rem;
+    line-height: 0;
+    margin-right: 10px;
+}
+.header-logo{
+display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.header-search{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.8rem;
+}

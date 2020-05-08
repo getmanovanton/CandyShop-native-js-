@@ -1,0 +1,89 @@
+@import url('components/Header/header.css') all;
+@import url('components/Products/products.css') all;
+@import url('components/Shopping/shopping.css') all;
+@import url('components/Spinner/spinner.css') all;
+@import url('components/Error/error.css') all;
+:root{
+    --color-light: rgba(255, 179, 189, 0.57);
+    --color-white: rgb(255, 255, 255);
+
+    --spacing-small: 10px;
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+
+    --linear-gradient: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,181,1) 51%);
+    --text-shadow:  #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    --box-shadow: 9px 8px 8px -6px rgba(0,0,0,0.66);
+}
+
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ff7ac7;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    height: 300px;
+}
+::-webkit-scrollbar-track{
+    background-color: #FFFFFF;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.7;
+    background-color: var(--color-light);
+}
+a{
+    text-decoration: none;
+}
+input {
+    outline:none;
+    border: none;
+    appearance: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+@media all and (max-width:800px) {
+    .shopping-element {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shopping-element__calc {
+        margin-left: 0;
+    }
+    .shopping-element__price{
+        text-align: center;
+    }
+    .shopping-element__name{
+        text-align: center;
+    }
+    *{
+        font-size: 8px;
+    }
+}
+@media all and (max-width:450px){
+    .shopping-container__total{font-size: 1.2rem;}
+    .header-search{
+        max-width: 100px;
+    }
+    .header-container{
+        padding: 0 5px;
+    }
+}

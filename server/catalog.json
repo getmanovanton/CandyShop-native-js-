@@ -1,0 +1,87 @@
+[
+  {
+    "id": "el1",
+    "name": "candy with plum",
+   "img": "img/catalog/candy-1.png",
+    "price": 1
+  },
+  {
+   "id":   "el2",
+   "name":   "candy with orange ",
+   "img":   "img/catalog/candy-2.png",
+   "price": 1
+  },
+  {
+   "id":    "el3",
+   "name":  "candy with strawberry",
+   "img":  "img/catalog/candy-3.png",
+   "price":  1
+  },
+  {
+   "id":    "el4",
+   "name":  "candy with grape",
+   "img":   "img/catalog/candy-4.png",
+   "price":  1
+  },
+
+  {
+   "id":    "el6",
+   "name":  "lollipop with cherry",
+   "img":   "img/catalog/lollipop-cherry.png",
+   "price": 1.5
+  },
+  {
+   "id":    "el7",
+   "name":   "lollipop with lemon",
+   "img":   "img/catalog/lollipop-lemon.png",
+   "price":  1.5
+  },
+  {
+   "id":     "el8",
+   "name":    "lollipop with orange",
+   "img":   "img/catalog/lollipop-orange.png",
+   "price":  1.5
+  },
+  {
+   "id":     "el9",
+   "name":   "marmalade bear",
+   "img":   "img/catalog/marmalade.png",
+   "price":  2.5
+  },
+  {
+   "id":    "el10",
+   "name":   "birthday cake",
+   "img":   "img/catalog/birthday cake.png",
+   "price": 4
+  },
+  {
+    "id":    "el11",
+    "name":   "cheesecake",
+    "img":   "img/catalog/cheesecake.png",
+    "price": 2.5
+  },
+  {
+    "id":    "el12",
+    "name":   "cherry cake",
+    "img":   "img/catalog/cherry cake.png",
+    "price": 2.2
+  },
+  {
+    "id":    "el13",
+    "name":   "dark chocolate",
+    "img":   "img/catalog/dark chocolate.png",
+    "price": 1.5
+  },
+  {
+    "id":    "el14",
+    "name":   "milk chocolate",
+    "img":   "img/catalog/milk chocolate.png",
+    "price": 1.5
+  },
+  {
+  "id":    "el15",
+  "name":   "ice cream",
+  "img":   "img/catalog/ice cream.png",
+  "price": 1.5
+}
+]
