@@ -2,7 +2,10 @@ class Header {
         openShoppingPage(){
             if(localStorageUtil.getProducts().length < 1){
                 shoppingPage.renderError()
-            }else{shoppingPage.render()}
+            }else{
+                ROOT_BODY.style.overflow = "hidden"
+                shoppingPage.render()
+            }
          }
 
         render(){

@@ -2,6 +2,7 @@ class Shopping {
 
      closeShoppingPage(){
              ROOT_SHOPPING.innerHTML = "";
+             ROOT_BODY.style.overflow = "auto";
     }
      renderError(){
         const html = `
@@ -92,6 +93,7 @@ class Shopping {
          </div>
         `
             ROOT_SHOPPING.innerHTML = html;
+
 
         }else {
             shoppingPage.closeShoppingPage()

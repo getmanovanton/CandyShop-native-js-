@@ -58,6 +58,7 @@
 
 }
 .shopping-container{
+    max-height: 100vh;
     width: 70%;
     position: fixed;
     z-index: 10;
